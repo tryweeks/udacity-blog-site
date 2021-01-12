@@ -1,0 +1,40 @@
+
+.grid-card { 
+	border-radius: 7px;
+    background-color: #3da8a3;
+    max-width: 33em;
+}
+
+#card-title{
+    margin: 9px;
+    font-size: 24px;
+    padding-left: 0.125em;
+    color: var(--accent-color);
+}
+#blog-title{
+    margin: 9px;
+    font-size: 24px;
+    padding-left: 0.125em;
+    color: var(--primary-color);
+}
+
+.grid-text{
+    margin: 6px;
+    border-radius: 3px;
+    padding: 0.5em 1em 1em 1em;
+    margin-top: 0.35em;
+    background-color: #eaf2ec;
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 1em;
+    background-color: #eaf2ec;    
+}
+
+.blog-image{
+    max-width: 100%;
+    height: auto;
+}
